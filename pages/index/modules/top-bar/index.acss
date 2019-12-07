@@ -1,0 +1,14 @@
+.top-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+}
+
+.top {
+  width: 100%;
+  background: url(../../../../img/top.jpg) no-repeat;
+  background-size: cover;
+  background-position: top center;
+}

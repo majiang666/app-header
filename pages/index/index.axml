@@ -1,0 +1,80 @@
+<!-- 小程序收藏组件，更多高级用法请参考文档：https://docs.alipay.com/mini/component/component-favorite -->
+<view class="page">
+  <scroll-view scroll-y="{{true}}" style="height:100vh;" onScroll="scroll">
+    <view class="main">
+      <view class="top" style="height:{{(titleBarHeight + statusBarHeight)*2}}rpx">
+        <view class="top-title" style="height:{{statusBarHeight*2}}rpx"></view>
+        <view class="top-main" style="height:{{titleBarHeight*2}}rpx;line-height:{{titleBarHeight*2+4}}rpx">活动名称</view>
+      </view>
+      <top-bar flag="{{flag}}" scrollTop="{{scrollTop}}" titleBarHeight="{{titleBarHeight}}" statusBarHeight="{{statusBarHeight}}" style="" />
+      <view style="background:#fff;margin:0 30rpx;border-radius:10rpx;padding:30rpx;">
+        <view class="text">1234567890</view>
+        <view class="text">1234567890</view>
+        <view class="text">1234567890</view>
+        <view class="text">1234567890</view>
+        <view class="text">1234567890</view>
+        <view class="text">1234567890</view>
+        <view class="text">1234567890</view>
+        <view class="text">1234567890</view>
+        <view class="text">1234567890</view>
+        <view class="text">1234567890</view>
+        <view class="text">1234567890</view>
+        <view class="text">1234567890</view>
+        <view class="text">1234567890</view>
+        <view class="text">1234567890</view>
+        <view class="text">1234567890</view>
+        <view class="text">1234567890</view>
+        <view class="text">1234567890</view>
+        <view class="text">1234567890</view>
+        <view class="text">1234567890</view>
+        <view class="text">1234567890</view>
+        <view class="text">1234567890</view>
+        <view class="text">1234567890</view>
+        <view class="text">1234567890</view>
+        <view class="text">1234567890</view>
+        <view class="text">1234567890</view>
+        <view class="text">1234567890</view>
+        <view class="text">1234567890</view>
+        <view class="text">1234567890</view>
+        <view class="text">1234567890</view>
+        <view class="text">1234567890</view>
+        <view class="text">1234567890</view>
+        <view class="text">1234567890</view>
+        <view class="text">1234567890</view>
+        <view class="text">1234567890</view>
+        <view class="text">1234567890</view>
+        <view class="text">1234567890</view>
+        <view class="text">1234567890</view>
+        <view class="text">1234567890</view>
+        <view class="text">1234567890</view>
+        <view class="text">1234567890</view>
+        <view class="text">1234567890</view>
+        <view class="text">1234567890</view>
+        <view class="text">1234567890</view>
+        <view class="text">1234567890</view>
+        <view class="text">1234567890</view>
+        <view class="text">1234567890</view>
+        <view class="text">1234567890</view>
+        <view class="text">1234567890</view>
+        <view class="text">1234567890</view>
+        <view class="text">1234567890</view>
+        <view class="text">1234567890</view>
+        <view class="text">1234567890</view>
+        <view class="text">1234567890</view>
+        <view class="text">1234567890</view>
+        <view class="text">1234567890</view>
+        <view class="text">1234567890</view>
+        <view class="text">1234567890</view>
+        <view class="text">1234567890</view>
+        <view class="text">1234567890</view>
+        <view class="text">1234567890</view>
+        <view class="text">1234567890</view>
+        <view class="text">1234567890</view>
+        <view class="text">1234567890</view>
+        <view class="text">1234567890</view>
+        <view class="text">1234567890</view>
+        <view class="text">1234567890</view>
+      </view>
+    </view>
+  </scroll-view>
+</view>

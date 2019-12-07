@@ -1,0 +1,8 @@
+{
+  "defaultTitle":"",
+  "transparentTitle":"auto",
+  "titleBarColor":"#fff",
+  "usingComponents":{
+    "top-bar":"./modules/top-bar/index"
+  }
+}

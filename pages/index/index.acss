@@ -1,0 +1,31 @@
+.page {
+  background: #b91c23
+}
+
+.main {
+  background: url(../../img/bg.jpg) no-repeat;
+  background-size: 100%;
+  background-position: top center;
+}
+
+.top {
+  display: flex;
+  font-family: '微软雅黑';
+  flex-wrap: wrap;
+  position: relative;
+  z-index: 0;
+}
+
+.top-title {
+  width: 100%;
+}
+
+.top-main {
+  width: 100%;
+  padding: 0 36rpx;
+  color: #fff;
+}
+
+.text {
+  line-height: 60rpx;
+}
