@@ -1,3 +1,5 @@
 Component({
-  
+  data: { },
+  didMount(){ },
+  methods: { }
 })
