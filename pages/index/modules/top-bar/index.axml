@@ -1,4 +1,4 @@
-<view class="top-bar" style="opacity:{{scrollTop / 100}};height:{{(titleBarHeight + statusBarHeight)*2}}rpx">
+<view class="top-bar" style="opacity:{{(scrollTop / 100) >= 1 ? 1 : (scrollTop / 100)}};height:{{(titleBarHeight + statusBarHeight)*2}}rpx">
   <view class="top" style="height:{{(titleBarHeight + statusBarHeight)*2}}rpx;">
     <view class="top-title" style="height:{{statusBarHeight*2}}rpx"></view>
     <view class="top-main" style="height:{{titleBarHeight*2}}rpx;line-height:{{titleBarHeight*2+4}}rpx;color:{{titleColor}}">{{title}}</view>
